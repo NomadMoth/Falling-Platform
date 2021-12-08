@@ -2,7 +2,9 @@
 
 ## 1. Variables
 
-Create one private Rigidbody variable, two public floats, a public GameObject and a public BoxCollider.
+Create one private Rigidbody variable, two public floats, a public GameObject and a public BoxCollider. Assign
+whatever values you wish for the dropDelay and respawnDelay - they can be edited in the Unity inspector later
+if necessary.
 
     Rigidbody rb;
     public float dropDelay = 1f;
